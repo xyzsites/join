@@ -4,9 +4,10 @@ body { font-family:'Inter',sans-serif; background:#0f0f1e; color:#e0e0e0; line-h
 
 .hero {
   text-align:center; padding:100px 20px 80px;
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url('https://www.parents.com/thmb/8rMcW2FCRVtrG46R6hmtdciZ394=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Parents-Baby-Sleep-Problems-82e6ed476f464409bf8a058cc89c602b.jpg') center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url('https://www.goodthingsguy.com/wp-content/uploads/2016/09/Proudly-South-African-Flags-600x400.jpg') center/cover;
   border-radius:20px; margin-bottom:40px; color:white;
 }
+
 .hero h1 { font-size:2.8rem; font-weight:900; margin-bottom:20px; }
 .hero .big { font-size:1.5rem; margin:20px 0 30px; }
 .cta-big {
@@ -60,3 +61,41 @@ footer { text-align:center; padding:40px; opacity:0.7; font-size:0.9rem; }
   .cta-big { padding:18px 30px; font-size:1.3rem; }
   .wa-float { width:60px; height:60px; font-size:30px; bottom:20px; right:20px; }
 }
+
+/***************** NEW SHIT ***************************/
+/* Better mobile spacing – add to the rules below */
+@media (max-width: 768px) {
+  .hero { padding: 80px 15px 60px; border-radius: 15px; }
+  .hero h1 { font-size: 2.2rem; }
+  .hero .big { font-size: 1.3rem; }
+  .cta-big { padding: 16px 32px; font-size: 1.25rem; }
+
+  .benefits, .commission, .steps, .final-cta { margin: 40px 0; padding: 0 10px; }
+  .card, .step { padding: 20px; }
+  .table div { padding: 15px; font-size: 1.1rem; }
+  .table strong { font-size: 1.5rem; }
+
+  .final-cta { padding: 50px 20px; border-radius: 15px; }
+
+  /* Terms page specific mobile fixes */
+  .terms-content { padding: 30px 20px; margin: 20px 0; border-radius: 15px; }
+  .terms-content h2 { font-size: 1.6rem; }
+}
+
+/* Checkbox styling 
+.terms-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 40px 0;
+  font-size: 1.1rem;
+}
+.terms-checkbox input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  accent-color: #25D366;
+  cursor: pointer;
+}
+.hidden-cta { display: none; }
+
